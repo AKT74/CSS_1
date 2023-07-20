@@ -1,0 +1,34 @@
+/* external CSS */
+
+h3{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+/* external css with id using # */
+#e1{
+    color: brown;
+    
+}
+#e2{
+    color: rgb(192, 151, 151);
+    
+}
+#e3{
+    color: rgb(55, 28, 28);
+    
+}
+#e4{
+    color: rgb(255, 37, 37);
+    
+}
+
+/* external css with class using . */
+
+.odd{
+    background-color: rgb(1, 130, 87);
+}
+
+.even{
+    background-color: rgb(23, 99, 99);
+}

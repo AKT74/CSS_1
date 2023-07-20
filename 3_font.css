@@ -1,0 +1,31 @@
+h1{
+    font-family: Verdana, arial;
+}
+
+/* font 1 kata seperti diatas 
+font 2 kata atau memiliki spasi harus pakai kutip 2
+
+ukuran 1 em adalah ukuran 100% atau default
+*/
+
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* font dari link google font */
+h2{
+    font-family: roboto;
+}
+
+/* font dari local */
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+h3{
+    font-family: BebasNeue;
+}
