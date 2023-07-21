@@ -1,0 +1,29 @@
+#container{
+    border: 2px solid;
+}
+
+
+/* effect all the descendant 
+
+    #container p{
+    background-color: rgb(235, 235, 159);
+} */
+
+/* effect all the children, not all the descendant(ex : grandchild)
+
+    #container > p{
+    background-color: rgb(235, 235, 159);
+} */
+
+/*  effect all the sibling of #container, itself didnt
+
+    #container ~ p{
+    background-color: rgb(235, 235, 159);
+} */
+
+
+/* effect the next sibling of #container(itself didnt effected), the sibling after that sibling wont effected */
+
+#container + p{
+    background-color: rgb(235, 235, 159);
+}
