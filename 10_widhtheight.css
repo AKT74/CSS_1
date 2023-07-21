@@ -1,0 +1,31 @@
+/* "*" for all element */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.container{
+    background-color: gray;
+    /* 100vh = 100% viewport height*/
+    height: 100vh;
+}
+
+
+.box{
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    /* max-height gonna make it still 50% height even though its more 
+        min-height gonna make it still 50% height even though it less
+    */
+    max-height: 50%;
+}

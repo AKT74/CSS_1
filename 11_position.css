@@ -1,0 +1,31 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: #3ca9ed;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: none;
+    
+}
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: #3ca9ed;
+    position: sticky;
+    /* position: sticky;
+    need "top : 0px" to work
+    */
+    top: 0px;
+    left: 100px;
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: #ed4b3c;
+    position: default;
+    top: 50px;
+
+}

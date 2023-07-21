@@ -1,0 +1,30 @@
+div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    display: inline-block ;
+    /* visibility: hidden; */
+}
+
+/* display
+inline = make it the same line, but only the text
+block = make a width and height
+inline-block = make it the same line with the width and height
+none = make it like it was never there
+
+but if it was
+display = inline-block
+visibility = hidden
+they out there only it cannot be seen
+
+
+
+*/
+
+
+span{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}

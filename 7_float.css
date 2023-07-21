@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    border: 3px solid white;
+    /* display flow root make the img2 stay in the box not leaking */
+    display: flow-root;
+}
+p{
+    color: aliceblue;
+}
+
+#img1{
+    float: right;
+    margin: 10px;
+}
+
+#img2{
+    float: left;
+    margin: 10px;
+}

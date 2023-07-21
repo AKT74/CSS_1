@@ -1,0 +1,25 @@
+body{
+    margin: 0px
+}
+
+.box{
+    border: 3px solid;
+    font-size: 3em;
+    width: 100px;
+    height: 100px;
+    /* margin 20px on box make the boxs have 20px margin each side for all the box */
+    margin: 20px;
+}
+
+#box1{
+    background-color: red;
+    /* margin left auto make it stay on the right */
+    margin-left: auto;
+}
+
+#box2{
+    background-color: blue;
+    /* margin auto make it stay on the middle */
+    margin: auto;
+ 
+}
