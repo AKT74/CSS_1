@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    font-size: 6em;
+    text-align: center;
+
+    /* transform: translate(100%, 50px); */
+    /* transform: rotatey(45deg); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(2); */
+    /* transform: skew(45deg, 60deg); */
+
+    transform: translateX(100%) rotatez(45deg) scale(0.5);
+
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: rgb(255, 136, 0);
+}
+
+#box3{
+    background-color: rgb(106, 255, 0);
+}
+
+img{
+    background-color: black;
+    width: 100px;
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
+}
